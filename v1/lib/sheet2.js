@@ -5,7 +5,7 @@ var opt2 = {
 
 var v1Spec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
-  "data": { "url": "../data/seattle-weather.csv" },
+  "data": { "url": "/v1/data/Sheet_2_data.csv" },
   "layer": [
     {
       "mark": "bar",
@@ -39,7 +39,7 @@ var v1Spec = {
 
 var vSpec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
-  "data": { "url": "../data/Sheet_2_data.csv" },
+  "data": { "url": "/v1/data/Sheet_2_data.csv" },
   "layer": [
     {
       "mark": "bar",

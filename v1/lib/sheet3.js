@@ -5,7 +5,7 @@ var opt2 = {
 
 var vSpec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
-  "data": { "url": "../data/Sheet_3_data.csv" },
+  "data": { "url": "/v1/data/Sheet_3_data.csv" },
   "layer": [
     {
       "mark": "bar",
